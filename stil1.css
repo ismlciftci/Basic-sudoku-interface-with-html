@@ -1,0 +1,45 @@
+div#kutuKapsa{
+    background-color: yellow;
+    width: 360px;
+    height: 360px;
+    border: 2px double black;
+    margin: auto;
+    display: flex;
+    /*direction: rtl;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.kutuKapsa2{
+    background-color: blue;
+    width: 30%;
+    height: 30%;
+    border: 2px double black;
+    margin: auto;
+    display: flex;
+    /*direction: rtl;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    border-collapse: collapse;
+}
+body{
+    background-color: aquamarine;
+}
+
+div.kutu{
+    
+    width: 31%;
+    height: 31%;
+    background-color: white;
+    border: 1px double black;
+    color: black;
+    text-align: center;
+    line-height: 200%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+}
